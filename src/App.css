@@ -16,7 +16,7 @@ body{
 .wrapper{
   width:100%;
   height: 100vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /* Home page */
@@ -33,7 +33,7 @@ body{
   flex: 0 1 14%;
   justify-content: center;
   /* border: 1px solid red; */
-  background: #899bc5;
+  background: #FF8787;
 }
 
 .nav-links{
@@ -58,7 +58,7 @@ body{
   padding: 1.5rem;
   /* border: 1px solid red; */
   height: 10%;
-  background: #899bc5;
+  background: #FF8787;
 
 }
 
@@ -85,8 +85,8 @@ body{
 .info-home h3{
 font-size: 3rem;
 margin-bottom: 1.5rem;
-text-transform: uppercase;
-color: #899bc5;
+/* text-transform: uppercase; */
+color: #FF8787;
 }
 
 .info-home p{
@@ -112,8 +112,9 @@ img{
 /* About Page*/
 .about{
   display: flex;
+  flex-direction: column;
   /* margin: auto; */
-  border:1px solid red;
+  /* border:1px solid red; */
   width: 100%;
   height: 100vh;
 }
@@ -139,8 +140,8 @@ img{
 }
 
 .about-info h2{
-  font-size: 3rem;
-  color: #899bc5;
+  font-style:normal;
+  color: #FF8787;
   margin-bottom:1.5rem;
 }
 
@@ -148,7 +149,7 @@ img{
 height:40%;
 /* border: 1px solid red; */
 font-size: 1.0rem;
-color: #516081;
+color: #301f77;
 text-align: justify;
 }
 
@@ -180,14 +181,14 @@ img{
   font-weight: 700;
   font-size: 31.19px;
   line-height: 44px;
-  color: #899bc5;
-  border: 1px solid red;
+  /* color: #899bc5; */
+  /* border: 1px solid red; */
 }
 
 .card {
   background: #ffffff;
-  box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.25),
-    4px 4px 16px rgba(137, 155, 197, 0.4);
+  /* box-shadow: 4px 4px 8px #BCE29E, */
+    /* 4px 4px 16px #BCE29E; */
   border-radius: 8px;
   width: 320px;
   height: 360px;
@@ -201,7 +202,7 @@ img{
   font-size: 16px;
   line-height: 35px;
   text-align: center;
-  color: #516081;
+  color: #301f77;
 }
 
 #email {
@@ -211,7 +212,7 @@ img{
   font-size: 18px;
   line-height: 35px;
   text-align: center;
-  color: #301f77;
+  color: #b2b3b5;
 }
 
 #add {
@@ -221,7 +222,7 @@ img{
   font-size: 16px;
   line-height: 35px;
   text-align: center;
-  color: #516081;
+  color: #b2beb5;
 }
 
 #num {
@@ -231,7 +232,7 @@ img{
   font-size: 16px;
   line-height: 35px;
   text-align: center;
-  color: #516081;
+  color: #b2beb5;
 }
 
 .card-img {
@@ -257,7 +258,7 @@ img{
 /* Error Page */
 
 .error-page {
-  background: #899bc5;
+  background: #BCE29E;
   width: 100%;
   height: 782px;
 }

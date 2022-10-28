@@ -19,7 +19,7 @@ const ErrorPage = () => {
         </div>
 
         <div className="error-image">
-          <img className="error-img" src={error} alt="404: Not found" />
+          <img className="error-img" src={error} alt="404: Page Not found" />
         </div>
       </div>
     </div>

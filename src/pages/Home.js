@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home">
         <Navbar />
         <div className="info-home">
-          <h3>Altschool-circle-7 Team</h3>
+          <h3>Pixel-Clan</h3>
           <p>
             We are a proactive team of developers who love creating brand and
             digital experience that matters
