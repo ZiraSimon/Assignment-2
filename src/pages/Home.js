@@ -11,8 +11,8 @@ const Home = () => {
         <div className="info-home">
           <h3>Pixel-Clan</h3>
           <p>
-            We are a proactive team of developers who love creating brand and
-            digital experience that matters
+            A team of developers who love creating brand and
+            digital experience that matters.
           </p>
           <div className="home-img">
             <img src={home} alt="home" />

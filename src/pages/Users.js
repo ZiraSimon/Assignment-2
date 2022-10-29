@@ -3,6 +3,8 @@ import axios from "axios";
 import { getPageNumber } from "../utils/getPageNumber";
 import { User } from "../components/User";
 import { UsersFooter } from "../components/UsersFooter";
+import Navbar from "../components/Navbar";
+import NavbarMobile from "../components/NavbarMobile";
 import { useSearchParams } from "react-router-dom";
 
 function UsersProfile({ users }) {
@@ -55,13 +57,20 @@ const Users = () => {
   }
 
   if (isLoading) {
-    return <div className="loading">Please wait, your request is being processed....</div>;
+    return <div className="loading">Your request is processing....</div>;
   }
 
   return (
-    <div className="">
-      <UsersProfile users={getCurrentPageData(pageNumber)} />
-      <UsersFooter pageNumber={pageNumber} />
+    <div className="User-Page">
+      <Navbar />
+      <div className="left">
+        <div className="user-container">
+          <UsersProfile users={getCurrentPageData(pageNumber)} />
+        </div>
+        <UsersFooter pageNumber={pageNumber} />
+      <NavbarMobile />
+      </div>
+
     </div>
   );
 };
